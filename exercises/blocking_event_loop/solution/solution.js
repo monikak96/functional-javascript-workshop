@@ -9,7 +9,7 @@ function repeat(operation, num) {
   if (num % 10 === 0) {
     setTimeout(function() {
       repeat(operation, --num)
-    })
+    },100)
   } else {
     repeat(operation, --num)
   }
